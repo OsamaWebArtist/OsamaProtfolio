@@ -852,7 +852,6 @@ animation: toOne 1s linear forwards;
 
 }
 .all-projects .project > img{
-    width: 340px;
     height: 196px;
     cursor: pointer;
 }
@@ -904,9 +903,17 @@ animation: toOne 1s linear forwards;
         bottom: -100px; 
         height: 100%; }
 
+    .all-projects .project > img{
+        width: 100%;
+    }
+
     .all-projects .project .vue-proj{
         bottom: 0;
-        height: 50%;
+        height: 41%;
+    }
+
+    .all-projects .project:hover .vue-proj{
+        height: 100%;
     }
 }
 
