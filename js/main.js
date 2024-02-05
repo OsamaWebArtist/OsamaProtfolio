@@ -13,7 +13,6 @@ allOfLi.forEach((ele) => {
 /*class active for Sections*/
 
 let allSections = document.querySelectorAll("body > div:not(.the-header)");
-console.log(allSections)
 
 allOfLi.forEach((ele) => {
     ele.addEventListener("click", function (e) {
@@ -40,7 +39,7 @@ allfilters.forEach((ele) => {
 
 /* Small trick in class = special-skill*/
 
-let arraySkills = ["HTML5 />","CSS3 />","Command Line />","Git&Github />","SASS />","Boostrap />"]
+let arraySkills = ["HTML5 />","CSS3 />","Command Line />","GulbJs />","Git&Github />","SASS />","Boostrap />"]
 let specialSkill = document.querySelector(".special-skill");
 setInterval(() => {
     specialSkill.textContent = "";
