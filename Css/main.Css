@@ -848,9 +848,7 @@ animation: toOne 1s linear forwards;
     border-radius: 5px;
     user-select: none;
 }
-.all-projects a{
 
-}
 .all-projects .project > img{
     height: 196px;
     cursor: pointer;
@@ -898,7 +896,9 @@ animation: toOne 1s linear forwards;
     .projects-filter {
         border: none;
     }
-
+    .all-projects a{
+        width: 100%;
+    }
     .all-projects .project div {
         bottom: -100px; 
         height: 100%; }
