@@ -39,7 +39,7 @@ allfilters.forEach((ele) => {
 
 /* Small trick in class = special-skill*/
 
-let arraySkills = ["HTML5 />","CSS3 />","Command Line />","GulbJs />","Git&Github />","SASS />","Boostrap />"]
+let arraySkills = ["HTML5 />","CSS3 />","Command Line />","GulbJs />","Git&Github />","SASS />","Boostrap />","Jest-Testing />","PugJs />"]
 let specialSkill = document.querySelector(".special-skill");
 setInterval(() => {
     specialSkill.textContent = "";

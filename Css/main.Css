@@ -711,6 +711,11 @@ animation: toOne 1s linear forwards;
     color: white;
     animation: skillAnim 1s ease-out forwards;
 }
+.skills i:nth-child(n+12){
+    font-size: 45px;
+    font-family: var(--second-font);
+
+}
 
 @keyframes skillAnim {
     0%{
@@ -847,28 +852,35 @@ animation: toOne 1s linear forwards;
     border: 2px solid var(--Is-Gold);
     border-radius: 5px;
     user-select: none;
+    border-bottom: 10px solid var(--Is-Gold);
+    height: 250px;
 }
-
+.all-projects a{
+    width: 50%;
+}
 .all-projects .project > img{
-    height: 196px;
+    height: 100%;
     cursor: pointer;
+    width: 100%;
 }
 .all-projects .project div{
     position: absolute;
     bottom: -96px;
     color: black;
+    height: 0;
     width: 100%;
     font-family: sans-serif;
     line-height: 1.4;
     text-align: center;
     border-radius: 2px;
     background-color: var(--Is-Gold);
-    transition: 0.5s;
+    transition: 0.8s;
 }
 .all-projects .project .vue-proj{
     bottom: -164px;
 }
 .all-projects .project:hover div{
+    height: 60%;
     bottom: 0;
     cursor: pointer;
 }
